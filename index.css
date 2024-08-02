@@ -112,6 +112,7 @@ button:hover p{
     height: 200px;
     border-radius: 50%;
     background: #444 linear-gradient(to right,transparent 50%, var(--clr) 0);
+    margin-bottom: 85px;
 }
 .equip .process img{
     position: absolute;
@@ -164,12 +165,6 @@ button:hover p{
 
 
 /* Edcation */
-#education{
-    margin: 100px;
-    margin-bottom: auto;
-    padding: 0%;
-    box-sizing: border-box;
-}
 .education-item {
     margin: 50px;
     padding: 25px;
@@ -210,6 +205,7 @@ button:hover p{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 .tab .card{
     box-sizing: border-box;
@@ -217,6 +213,8 @@ button:hover p{
     height: 200px;
     width: 300px;
     margin:25px;
+    align-items: center;
+    justify-content: center;
 }
 .tab .card:hover{
     height: 215px;
@@ -251,10 +249,18 @@ color: white;
 
 
 /* Project */
-.row .card{
-    width: 350px;
+.pro{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.pro .card{
+    width: 335px;
     height: 370px;
     margin: 20px;
+    align-items: center;
+    justify-content: center;
 }
 .card-title{
     text-align: center;
@@ -301,6 +307,7 @@ color: white;
 #values p {
     font-size: 25px;
 }
-#values a{
-    margin: 10px;
+.links svg{
+    margin: 5px;
+    margin-bottom: 10px;
 }
