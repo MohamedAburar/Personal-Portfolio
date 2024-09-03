@@ -256,11 +256,10 @@ color: white;
     justify-content: center;
 }
 .pro .card{
-    width: 335px;
-    height: 370px;
-    margin: 20px;
+    width: 365px;
+    height: 350px;
+    margin: 15px;
     align-items: center;
-    justify-content: center;
 }
 .card-title{
     text-align: center;
@@ -270,12 +269,14 @@ color: white;
     display: inherit;
     margin-left: 130px;
     margin-right: 130px;
+    margin-top: 25px;
     background: linear-gradient(45deg, #6a11cb, #2575fc);
 }
 .card-body a:hover{
-    background:#000000;
+    background: linear-gradient(45deg ,#b5cb11,#fc7a25);
+    color: #000000;
+    margin: 0%;
 }
-
 
 /* Contact*/
 #file{
