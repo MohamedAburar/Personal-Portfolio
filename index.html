@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" href="./Images/Icon.jpg" alt="Icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -92,7 +93,6 @@
             </div>
     </section>
 
-
     <!-- Services -->
     <section id="skills">
         <div class="container mt-4 pt-4">
@@ -134,18 +134,6 @@
                     <div class="process" style="--i:91;--clr:#00ff00;--bg-image:url('./Set/dapps.jpg');">
                         <h3>91<span>%</span></h3>
                         <h4>DApps</h4>
-                    </div>
-                    <div class="process" style="--i:75;--clr:#00ff00;--bg-image:url('./Set/c.png');">
-                        <h3>75<span>%</span></h3>
-                        <h4>C</h4>
-                    </div>
-                    <div class="process" style="--i:75;--clr:#00ff00;--bg-image:url('./Set/c++.png');">
-                        <h3>75<span>%</span></h3>
-                        <h4>C++</h4>
-                    </div>
-                    <div class="process" style="--i:75;--clr:#00ff00;--bg-image:url('./Set/python.jpg');">
-                        <h3>75<span>%</span></h3>
-                        <h4>Python</h4>
                     </div>
                 </div>
             </div>
@@ -245,94 +233,308 @@
 
     <!-- Project -->
     <section id="project">
-        <div class="container mt-3">
+        <div class="container mt-3" style="height: 100%;">
             <h1 class="text-center">Project Details</h1>
+
             <div class="pro">
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="./Set/Portfolio.png" alt="portfolio" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Portfolio</h4>
-                            <p class="card-text"> HTML, CSS and JavaScript</p>
-                            <a href="https://github.com/MohamedAburar/Personal-Portfolio"
-                                class="btn btn-success">Link</a>
+                <div class="col-lg-4 mt-4 col-sm-6 col-xs-12">
+                    <div class="hover-box mx-auto">
+                        <div>
+                            <img src="./Set/Portfolio.jpg" alt="Portfolio Image" />
+                        </div>
+                        <div class="hovered">
+                            <h2 class="dark">Personal Portfolio</h2>
+                            <button class="btn btn-light view-btn" data-bs-toggle="offcanvas"
+                                data-bs-target="#slidePanel1">View More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="./Set/Youtube Clone.png" alt="youtube-clone" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Youtube Clone:</h4>
-                            <p class="card-text">HTML,CSS,DOM,JavaScript and React.Js</p>
-                            <a href="https://github.com/MohamedAburar/YouTube-Clone" class="btn btn-success">Link</a>
+
+                <div class="offcanvas offcanvas-body slide" tabindex="-1" id="slidePanel1"
+                    aria-labelledby="slidePanelLabel">
+                    <div class="offcanvas-full">
+                        <div class="offcanvas-header">
+                            <h5 id="slidePanelLabel">Portfolio</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body canvas-items ">
+                            <img src="./Set/Portfolio.png">
+                            <h3 style="font-weight: initial; font-size: large; margin: 10px;">My portfolio is a
+                                reflection
+                                of my skills, experience, and expertise in full-stack
+                                development. It showcases my projects, technical proficiency, educational
+                                qualifications,
+                                and hands-on experience in building scalable applications. Designed and developed by me,
+                                it
+                                highlights my journey, problem-solving abilities, and passion for creating innovative
+                                solutions. Feel free to explore my work and connect with me.</h3>
+                            <h4 style="font-weight: initial ; font-size: large;margin: 10px;">Technologies used:
+                                <b>HTML,CSS and Javascript</b>
+                            </h4>
+                            <a href="https://github.com/MohamedAburar/Personal-Portfolio">View in GitHub</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="./Set/Makersharks.png" alt="makersharks" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Makersharks Project</h4>
-                            <p class="card-text">Node.JS,Express.Js,API and PostgreSQL.</p>
-                            <a href="https://github.com/MohamedAburar/Makersharks-Assessment"
-                                class="btn btn-success">Link</a>
+
+                <div class="col-lg-4 mt-4 col-sm-6 col-xs-12">
+                    <div class="hover-box mx-auto">
+                        <div>
+                            <img src="./Set/Youtube-clone.png" alt="Youtube Image" />
+                        </div>
+                        <div class="hovered">
+                            <h2 class="dark">Youtube Clone</h2>
+                            <button class="btn btn-light view-btn" data-bs-toggle="offcanvas"
+                                data-bs-target="#slidePanel2">View More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="./Set/Fintarget.png" alt="fintarger" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">FinTarget Project</h4>
-                            <p class="card-text">JavaScript,Node.JS,Express.Js and API.</p>
-                            <a href="https://github.com/MohamedAburar/Fintarger-Assessment"
-                                class="btn btn-success">Link</a>
+
+                <div class="offcanvas offcanvas-body slide" tabindex="-1" id="slidePanel2"
+                    aria-labelledby="slidePanelLabel">
+                    <div class="offcanvas-full">
+                        <div class="offcanvas-header">
+                            <h5 id="slidePanelLabel">Youtube Clone</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body canvas-items ">
+                            <img src="./Set/Youtube Clone.png">
+                            <h3 style="font-weight: initial; font-size: large; margin: 10px;">I developed a YouTube
+                                clone that offers a personalized experience with customized videos and channels. The
+                                interface
+                                is designed to closely resemble the real YouTube, ensuring a user-friendly and seamless
+                                browsing experience. I focused on enhancing the functionality and aesthetics to deliver
+                                a smooth and engaging platform for users.</h3>
+                            <h4 style="font-weight: initial ; font-size: large;margin: 10px;">Technologies used:
+                                <b>HTML,CSS and Javascript</b>
+                            </h4>
+                            <a href="https://github.com/MohamedAburar/YouTube-Clone">View in GitHub</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="./Set/Simon Game.png" alt="simon game" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Simon Game</h4>
-                            <p class="card-text">HTML,CSS,JavaScript,Node.Js and Express.Js.</p>
-                            <a href="https://github.com/MohamedAburar/Simon-Game" class="btn btn-success">Link</a>
+
+                <div class="col-lg-4 mt-4 col-sm-6 col-xs-12">
+                    <div class="hover-box mx-auto">
+                        <div>
+                            <img src="./Set/Marksharks-.jpg" alt="Marker Project Image" />
+                        </div>
+                        <div class="hovered">
+                            <h2 class="dark">Company Information API</h2>
+                            <button class="btn btn-light view-btn" data-bs-toggle="offcanvas"
+                                data-bs-target="#slidePanel3">View More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="./Set/QR code.png" alt="qr-code" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">QR Code Generator</h4>
-                            <p class="card-text">HTML,CSS,JavaScript and Node.Js.</p>
-                            <a href="https://github.com/MohamedAburar/QR-Scanner" class="btn btn-success">Link</a>
+
+                <div class="offcanvas offcanvas-body slide" tabindex="-1" id="slidePanel3"
+                    aria-labelledby="slidePanelLabel">
+                    <div class="offcanvas-full">
+                        <div class="offcanvas-header">
+                            <h5 id="slidePanelLabel">Company Information Retrieval API</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body canvas-items ">
+                            <img src="./Set/Makersharks.png">
+                            <h3 style="font-weight: initial; font-size: large; margin: 10px;">I developed an API that
+                                allows users to search for companies and retrieve detailed information based on specific
+                                criteria. The API efficiently fetches relevant company data and returns it upon request.
+                                It is designed to ensure quick and accurate responses, making it easy to access detailed
+                                company profiles through a simple endpoint call.</h3>
+                            <h4 style="font-weight: initial ; font-size: large;margin: 10px;">Technologies used:
+                                <b>Node.Js,Express.Js,API and PostgreSQL</b>
+                            </h4>
+                            <a href="https://github.com/MohamedAburar/Makersharks-Assessment">View in GitHub</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="./Set/Landing Page.png" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Landing Page</h4>
-                            <p class="card-text">HTML and CSS.</p>
-                            <a href="https://github.com/MohamedAburar/Landing-Page" class="btn btn-success">Link</a>
+
+                <div class="col-lg-4 mt-4 col-sm-6 col-xs-12">
+                    <div class="hover-box mx-auto">
+                        <div>
+                            <img src="./Set/Fintarget-.jpg" alt="Fintarget Project Image" />
+                        </div>
+                        <div class="hovered">
+                            <h2 class="bright">Task Management </h2>
+                            <button class="btn btn-light view-btn" data-bs-toggle="offcanvas"
+                                data-bs-target="#slidePanel4">View More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="./Set/To-do List.png" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">To-Do List Maker</h4>
-                            <p class="card-text">HTML,CSS,JavaScript and DOM.</p>
-                            <a href="https://github.com/MohamedAburar/To-Do-List" class="btn btn-success">Link</a>
+
+                <div class="offcanvas offcanvas-body slide" tabindex="-1" id="slidePanel4"
+                    aria-labelledby="slidePanelLabel">
+                    <div class="offcanvas-full">
+                        <div class="offcanvas-header">
+                            <h5 id="slidePanelLabel">Task Management </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body canvas-items ">
+                            <img src="./Set/Fintarget.png">
+                            <h3 style="font-weight: initial; font-size: large; margin: 10px;">This project is an API
+                                designed to manage user tasks with built-in rate limiting, ensuring optimal performance
+                                and
+                                resource utilization. It efficiently handles task queuing and logging, limiting the
+                                number
+                                of tasks each user can submit within specified time intervals. The system is built to
+                                maintain smooth user interactions while preventing overload and ensuring fairness.</h3>
+                            <h4 style="font-weight: initial ; font-size: large;margin: 10px;">Technologies used:
+                                <b>Node.Js,Express.Js and API. </b>
+                            </h4>
+                            <a href="https://github.com/MohamedAburar/Fintarger-Assessment">View in GitHub</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+
+                <div class="col-lg-4 mt-4 col-sm-6 col-xs-12">
+                    <div class="hover-box mx-auto">
+                        <div>
+                            <img src="./Set/simon.jpg" alt="Simon Image" />
+                        </div>
+                        <div class="hovered">
+                            <h2 class="bright">Simon Game</h2>
+                            <button class="btn btn-light view-btn" data-bs-toggle="offcanvas"
+                                data-bs-target="#slidePanel5">View More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="offcanvas offcanvas-body slide" tabindex="-1" id="slidePanel5"
+                    aria-labelledby="slidePanelLabel">
+                    <div class="offcanvas-full">
+                        <div class="offcanvas-header">
+                            <h5 id="slidePanelLabel">Simon Game</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body canvas-items ">
+                            <img src="./Set/Simon Game.png">
+                            <h3 style="font-weight: initial; font-size: large; margin: 10px;">This project is an
+                                interactive sound-based game where the system automatically selects a key and plays its
+                                corresponding sound. The user is challenged to follow and replicate the correct sequence
+                                of
+                                sounds. The game is designed to improve memory and listening skills while providing an
+                                engaging and intuitive experience.</h3>
+                            <h4 style="font-weight: initial ; font-size: large;margin: 10px;">Technologies used:
+                                <b>HTML,CSS,JavaScript and Node.Js. </b>
+                            </h4>
+                            <a href="https://github.com/MohamedAburar/Simon-Game">View in GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4 col-sm-6 col-xs-12">
+                    <div class="hover-box mx-auto">
+                        <div>
+                            <img src="./Set/QR Scanner.jpg" alt="QR Scanner Image" />
+                        </div>
+                        <div class="hovered">
+                            <h2 class="dark">QR Scanner</h2>
+                            <button class="btn btn-light view-btn" data-bs-toggle="offcanvas"
+                                data-bs-target="#slidePanel6">View More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="offcanvas offcanvas-body slide" tabindex="-1" id="slidePanel6"
+                    aria-labelledby="slidePanelLabel">
+                    <div class="offcanvas-full">
+                        <div class="offcanvas-header">
+                            <h5 id="slidePanelLabel">QR Scanner</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body canvas-items ">
+                            <img src="./Set/QR code.png">
+                            <h3 style="font-weight: initial; font-size: large; margin: 10px;"> This project is a QR
+                                code generator and scanner that converts a given link into a QR code. When scanned, the
+                                QR
+                                code directs users to the specified link, ensuring quick and seamless access. It
+                                provides a
+                                simple and efficient way to share and access information instantly.</h3>
+                            <h4 style="font-weight: initial ; font-size: large;margin: 10px;">Technologies used:
+                                <b>HTML,CSS,JavaScript and Node.Js. </b>
+                            </h4>
+                            <a href="https://github.com/MohamedAburar/QR-Scanner">View in GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4 col-sm-6 col-xs-12">
+                    <div class="hover-box mx-auto">
+                        <div>
+                            <img src="./Set/To-do.jpg" alt="To-do List Image" />
+                        </div>
+                        <div class="hovered">
+                            <h2 class="dark">To-do List</h2>
+                            <button class="btn btn-light view-btn" data-bs-toggle="offcanvas"
+                                data-bs-target="#slidePanel7">View More </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="offcanvas offcanvas-body slide" tabindex="-1" id="slidePanel7"
+                    aria-labelledby="slidePanelLabel">
+                    <div class="offcanvas-full">
+                        <div class="offcanvas-header">
+                            <h5 id="slidePanelLabel">To-Do List</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body canvas-items ">
+                            <img src="./Set/To-do List.png">
+                            <h3 style="font-weight: initial; font-size: large; margin: 10px;"> This project is an
+                                interactive to-do list that allows users to add and manage tasks efficiently. Users can
+                                input tasks, track their progress, and remove completed items with a simple click. It
+                                provides a seamless and organized way to enhance productivity and task management.</h3>
+                            <h4 style="font-weight: initial ; font-size: large;margin: 10px;">Technologies used:
+                                <b>HTML,CSS,JavaScript and DOM. </b>
+                            </h4>
+                            <a href="https://github.com/MohamedAburar/To-Do-List">View in GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4 col-sm-6 col-xs-12">
+                    <div class="hover-box mx-auto">
+                        <div>
+                            <img src="./Set/Landing-Page.png" alt="Landing Image" />
+                        </div>
+                        <div class="hovered">
+                            <h2 class="dark">Landing Page</h2>
+                            <button class="btn btn-light view-btn" data-bs-toggle="offcanvas"
+                                data-bs-target="#slidePanel8">View More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="offcanvas offcanvas-body slide" tabindex="-1" id="slidePanel8"
+                    aria-labelledby="slidePanelLabel">
+                    <div class="offcanvas-full">
+                        <div class="offcanvas-header">
+                            <h5 id="slidePanelLabel">Landing Page</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body canvas-items ">
+                            <img src="./Set/Landing Page.png">
+                            <h3 style="font-weight: initial; font-size: large; margin: 10px;"> This project was
+                                developed
+                                during my internship at Octonet Pvt. Ltd., focusing on creating an intuitive and
+                                visually
+                                appealing web page for tourists. It provides essential information and a user-friendly
+                                interface to enhance the travel experience. The design ensures easy navigation, making
+                                it
+                                accessible and engaging for users</h3>
+                            <h4 style="font-weight: initial ; font-size:large;margin: 10px;">Technologies used:
+                                <b>HTML and CSS</b>
+                            </h4>
+                            <a href="https://github.com/MohamedAburar/Landing-Page">View in GitHub</a>
+                        </div>
+                    </div>
+                </div>
     </section>
 
     <!-- Contact -->
@@ -356,7 +558,7 @@
                                 d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
                             <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
                         </svg>
-                        <p>No.7,Maramadi road,<br />Vedasandur,<br />Dindigul, 624710.</p>
+                        <p>Ashok Nagar,<br />Chennai, 600 080.</p>
                     </span>
                     <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                             class="bi bi-envelope" viewBox="0 0 16 16">
@@ -396,12 +598,12 @@
                         </div>
                     </form>
                     <button type="button" class="btn btn-success mt-3">Contact Me</button>
-
                 </div>
-
             </div>
         </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./index.js" charset="utf-8"></script>
 </body>
 
