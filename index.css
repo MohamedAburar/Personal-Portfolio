@@ -121,8 +121,8 @@ section.in-view {
 
 .equip .process {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 225px;
+  height: 225px;
   border-radius: 50%;
   background: #444 linear-gradient(to right, transparent 50%, var(--clr) 0);
   margin-bottom: 85px;
@@ -149,7 +149,7 @@ section.in-view {
 
 .equip .process h4 {
   position: absolute;
-  top: 250px;
+  top: 275px;
   left: 100px;
   transform: translate(-50%);
   z-index: 1;
@@ -256,7 +256,6 @@ section.in-view {
   font-weight: 900;
   color: white;
 }
-
 .title-set {
   font-size: small;
   margin-top: 15px;
@@ -265,6 +264,11 @@ section.in-view {
 
 .tab .card:hover .title-set {
   font-size: 20px;
+  color: white;
+}
+.tab .card:hover #certifi{
+  font-size: 14px;
+  font-weight: 500;
   color: white;
 }
 
@@ -279,9 +283,6 @@ section.in-view {
 }
 
 /* Project */
-#project {
-  height: 975px;
-}
 
 .pro {
   display: flex;
@@ -397,10 +398,6 @@ section.in-view {
 }
 
 @media (max-width:580px) {
-  #project {
-    height: 2600px;
-  }
-
   .slide {
     width: 90%;
     height: 30%;
@@ -412,10 +409,6 @@ section.in-view {
 }
 
 @media (min-width:580px) and (max-width:990px) {
-  #project {
-    height: 1100px;
-  }
-
   .hover-box {
     width: 80%;
   }
@@ -431,10 +424,6 @@ section.in-view {
 }
 
 @media (min-width:990px) and (max-width:1400px) {
-  #project {
-    height: 900px;
-  }
-
   .hover-box {
     width: 90%;
   }
